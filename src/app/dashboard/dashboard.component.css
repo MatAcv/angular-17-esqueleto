@@ -1,0 +1,18 @@
+/* dashboard.component.css */
+.dashboard-container {
+    display: flex;
+  }
+  
+
+  
+  .main-content {
+    flex: 1;
+    padding: 16px; /* Ajusta el padding según tus necesidades */
+  }
+  
+
+  @media (max-width: 1024px) {
+    .dashboard-container .app-sidemenu {
+      display: none;
+    }
+  }
